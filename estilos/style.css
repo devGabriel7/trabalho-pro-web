@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+  /* configs globais do site */
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +10,8 @@
 body{
     background-image: linear-gradient(to left, #ececec, #0072e4);
 }
+
+/* definindo proporções do cabeçalho */
 header{
     padding: 20px;
     display: flex;
@@ -27,6 +31,7 @@ ul{
 
 }
 
+/* definindo estilos do menu */
  menu a{
     display: flex;
     padding: 10px;
@@ -38,15 +43,17 @@ ul{
     
 }
 
-
+/* animação ao passar o cursor */
 a:hover{
     background-color: #89c4ffb7;
    transform: scale(1.05); 
   transition: all 0.3s ease;   
 }
+
+/* configs do conteúdo principal*/
 main{
    width: 70vw;
-   height: 80vh;
+   height: 100%;
     background-color: white;
    margin: auto;
    border-radius: 9px ;
@@ -63,6 +70,7 @@ p{
     text-indent: 30px;
 }
 
+/* flexibilidade e configs para a imagem n quebrar ou zuar*/
 div#img{
     display: flex;
     flex-wrap: wrap;
@@ -75,3 +83,95 @@ img{
     padding: 10px;
     
 } 
+
+section#formacao{
+    background-color: #F3F4F6;
+    text-align: auto;
+    padding: 20px;
+    text-align: center;
+    height: 13%;
+    
+    
+}
+
+/* configs das secções com links*/
+#formacao a{
+    color: rgba(0, 0, 255, 0.849);
+    text-decoration: none;
+    font-size: 1.em;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+section#formacao a:hover{
+    color: rgba(0, 162, 255, 0.986);
+    text-decoration: underline;
+}
+
+section#portifolio{
+    text-align: auto;
+    padding: 20px;
+    text-align: center;
+    height: 13%;
+}
+#portifolio a{
+    color: rgba(0, 0, 255, 0.849);
+    text-decoration: none;
+    font-size: 1.em;
+    padding: 10px;
+   
+}
+section#portifolio a:hover{
+    color: rgba(0, 162, 255, 0.986);
+    text-decoration: underline;
+}
+
+section#contato{
+    text-align: auto;
+    padding: 20px;
+    text-align: center;
+    height: 13%;
+    background-color: #F3F4F6;
+      
+    
+}
+#contato a{
+    color: rgba(0, 0, 255, 0.849);
+    text-decoration: none;
+    font-size: 1.em;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  
+}
+#contato a:hover{
+    color: rgba(0, 162, 255, 0.986);
+    text-decoration: underline;
+}
+
+
+/* configs do site de formação */
+.lformacao{
+  color: white;
+  font-size: 1.6em;
+  background-attachment: fixed;
+}
+.formacao-item{
+    padding: 20px;
+    align-items: flex-start;
+}
+.projeto{
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.alinks{
+text-decoration: none;
+color: blue;
+
+    
+}
+.alinks:hover{
+    color: rgba(0, 162, 255, 0.986);
+    text-decoration: underline;
+}

@@ -4,6 +4,9 @@
     padding: 0px;
     
 }
+
+/* Criação de media queries e responsividade para telas de celular*/
+
 @media screen and (max-width:768px) {
     body{
         background-image: linear-gradient(to left, #ececec, #0072e4);
@@ -11,6 +14,7 @@
     header{
         padding: 10px;
         height: 20vh;
+        display: flex;
     }
     menu{
         padding: 20px;
@@ -20,14 +24,16 @@
         list-style-type: none;
         display: flex;
         flex-flow: row nowrap;
-        gap: 13px;
+        gap: 18px;
         padding: 20px;
-        font-size: 0.5em;
-        
+        font-size: .8em;
+       transform: translate(-10px, 0);
     }
     li{
         width: 80px;
         margin: -4px ;
+       
+        
     }
     
     main{
@@ -39,6 +45,17 @@
         width: 55%;
         padding-left: 20px;
     }
+.links2{
+    flex: initial;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+a{
+    font-size: .7em;
+}
 }
 
- 
