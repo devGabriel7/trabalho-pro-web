@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/responsivo.css"> 
     <link rel="shortcut icon" href="imagens/gg.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
     
 </head>
 <body >
@@ -14,8 +17,8 @@
    
     <!-- Criação do menu com links-->
 <menu >
-    <ul>
-        <li><a href="#sobre"> Sobre min</a></li>
+    <ul  data-aos="fade-right" data-aos-delay="0900">
+        <li><a href="#"> Sobre min</a></li>
          <li><a href="formacao.html" target="_blank"> Formação</a></li>
           <li><a href="portifolio.html" target="_blank"> portifolio</a></li>
            <li ><a href="contato.html" target="_blank"> Contato</a></li>
@@ -26,6 +29,7 @@
    
     <!-- descrição sobre min-->
 </header> 
+
 <main>
     <h1>Sobre min</h1>
         <p id="sobre" >Olá, meu nome é <strong>Gabriel Lopes da Silva</strong>, tenho
@@ -34,7 +38,7 @@
             Algns dos meus hobbies são: estudar, jogar games, assistir series/animes e ler mangás. Sempre gostei de teconologia e isso foi um grande fator para que eu escolhesse esse curso e essa caminho e formação profissional. Tenho conhecimento nas linguagens Python, javascrript, PHP, SQL, HTML e CSS.  E também  em outras ferramentas Git, Github, Figma, Mysql e Node.js. Possuo noções básicas de rede e segurança da informação e um solido conhecimento teórico e prático em montagem de computadores, manutenção e montagem de hardware, atualizaçoes de sistemas operacionais como Windowns e Linux. 
             <br>
     
-            <div id="img"><img src="imagens/foto-gab.jpg" alt=" Gabiel Lopes da Silva"></div>
+            <div id="img"><img src="imagens/foto-gab.jpg" alt=" Gabiel Lopes da Silva"  data-aos="fade-right" data-aos-delay="0900"></div>
 
 
 <!-- link da minha formação-->
@@ -66,4 +70,10 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 </html>

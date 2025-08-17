@@ -8,8 +8,11 @@
     font-size: 1.1em
 }
 body{
-    background-image: linear-gradient(to left, #ececec, #0072e4);
+   background-image: url(../imagens/vagabond.png);
+  
+   
 }
+
 
 /* definindo proporções do cabeçalho */
 header{
@@ -19,7 +22,9 @@ header{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(5, 78, 138);
+    /*background-color: rgb(5, 78, 138);
+     background-image: linear-gradient(to left, #ececec, #0072e4);*/
+    background-image: linear-gradient(to left, rgb(190, 189, 189), black);
     
 }
 
@@ -36,19 +41,21 @@ ul{
     display: flex;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(11, 89, 233, 0.349);
+    background-color: rgba(211, 211, 211, 0.055);
     color: white;
     text-align: center;
-     border-radius: 4px;
+     border-radius: 15px;
     
 }
 
 /* animação ao passar o cursor */
 a:hover{
-    background-color: #89c4ffb7;
+    background-color: #444546b7;
    transform: scale(1.05); 
   transition: all 0.3s ease;   
 }
+
+
 
 /* configs do conteúdo principal*/
 main{
@@ -115,7 +122,7 @@ section#portifolio{
     height: 13%;
 }
 #portifolio a{
-    color: rgba(0, 0, 255, 0.849);
+    color: rgb(0, 0, 255);
     text-decoration: none;
     font-size: 1.em;
     padding: 10px;
@@ -123,6 +130,7 @@ section#portifolio{
 }
 section#portifolio a:hover{
     color: rgba(0, 162, 255, 0.986);
+    background-color: rgba(255, 255, 255, 0);
     text-decoration: underline;
 }
 
@@ -174,4 +182,12 @@ color: blue;
 .alinks:hover{
     color: rgba(0, 162, 255, 0.986);
     text-decoration: underline;
+}
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 71%;
+    margin: auto;
+    border-radius: 0px 10px ;
 }

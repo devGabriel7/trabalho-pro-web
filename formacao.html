@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="estilos/responsivo.css">
     <link rel="shortcut icon" href="imagens/gg.ico" type="image/x-icon">
     <title>Formação</title>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
 </head>
 <body>
     <header class="lformacao">
-        <h1>Formação - Gabriel Lopes</h1>
+        <h1 data-aos="flip-left" data-aos-delay="0900" >Formação - Gabriel Lopes</h1>
     </header>
-    <main>
+    <main class="centramain">
          <section class="formacao-item">
       <h2>Curso Superior</h2>
-      <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
-      <p><strong>Instituição:</strong> Uninter -  Centro Universitário Internacional 
+      <p class="centrap"><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+      <p class="centrap"><strong>Instituição:</strong> Uninter -  Centro Universitário Internacional 
         <br>
       <strong>Status:</strong> Em andamento 
       <br>
@@ -26,7 +29,7 @@
 
    <section class="formacao-item">
       <h2>Cursos</h2>
-      <p><strong>Curso:</strong> Design e criação de personagens para games e animação 
+      <p class="centrap"><strong>Curso:</strong> Design e criação de personagens para games e animação 
         <br>
       <strong>Instituição:</strong> Orango - Senac 
       <br>
@@ -36,11 +39,16 @@
     <section class="formacao-item">
       <h2>Idiomas</h2>
       <ul>
-        <li>Inglês – nível intermediário ,</li>
+        <li class="centrap" >Inglês – nível intermediário ,</li>
         
-            <li>Espanhol – básico </li>
+            <li class="centrap" >Espanhol – básico </li>
       </ul>
     </section>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

@@ -8,9 +8,9 @@
 /* Criação de media queries e responsividade para telas de celular*/
 
 @media screen and (max-width:768px) {
-    body{
-        background-image: linear-gradient(to left, #ececec, #0072e4);
-    }
+   body{
+   
+   }
     header{
         padding: 10px;
         height: 20vh;
@@ -31,8 +31,9 @@
     }
     li{
         width: 80px;
-        margin: -4px ;
-       
+        margin: -3x ;
+      align-self: center;
+      font-size: .9em;
         
     }
     
@@ -57,5 +58,37 @@
 a{
     font-size: .7em;
 }
+
+
+.centrap{
+text-align: left;
+flex: auto;
+font-size: 1.2em;
 }
 
+.contato{
+font-size: 1em;
+    padding: 10px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100vw;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    body{
+         
+        background-image: url(../imagens/vagabond.png);
+      background-attachment: fixed;
+      background-position: right bottom;
+      
+      
+    
+    }
+    
+}
