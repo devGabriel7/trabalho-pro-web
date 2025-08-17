@@ -14,27 +14,26 @@
     header{
         padding: 10px;
         height: 20vh;
-        display: flex;
     }
     menu{
         padding: 20px;
         
     }
     ul{
-        list-style-type: none;
         display: flex;
+        list-style-type: none;
         flex-flow: row nowrap;
         gap: 18px;
         padding: 20px;
-        font-size: .8em;
-       transform: translate(-10px, 0);
+        font-size: 0.9em;
+      
     }
     li{
         width: 80px;
-        margin: -3x ;
+        margin: -3px ;
       align-self: center;
       font-size: .9em;
-        
+      
     }
     
     main{
