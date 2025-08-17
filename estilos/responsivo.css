@@ -46,6 +46,8 @@
         width: 55%;
         padding-left: 20px;
     }
+
+    /* deixando os itens flexiveis */
 .links2{
     flex: initial;
     display: flex;
@@ -67,7 +69,7 @@ font-size: 1.2em;
 }
 
 .contato{
-font-size: 1em;
+font-size: .9em;
     padding: 10px;
 }
 
@@ -80,6 +82,7 @@ footer{
 
 }
 
+ /* para telas maiores que celulares  */
 @media screen and (min-width: 768px) {
     body{
          

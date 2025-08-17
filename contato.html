@@ -15,32 +15,28 @@
     <header class="lformacao">
         <h1 data-aos="fade-down" data-aos-delay="1000" >Entre em contato </h1>
     </header>
-    <main style="height: 90vh;" class="centramain">
-        <section>
-            <h1>Atráves das seguintes mídias: </h1>
-            <div class="contato">
-                <h3>Email: gabriellopes.dev7@gmail.com</h3>
-            </div>
-            <div class="contato" >
-                <br>
-                <h3>Telefone: (81) 9 94864287 </h3>
-            </div>
-            <br>
-            <div class="contato" >
-                <h3> Instagram: @Bielzot</h3>
-            </div>
-            <br>
-            <div class="contato">
-                <h3>Facebook: Gabriel silva</h3>
-            </div>
+    <main class="centramain">
+
+        <section class="contato-item">
+            <h2>Entre em contato comigo</h2>
 
 
+            <form  action="form.php" method="post" autocomplete="on">
+                <label class="centrap" for="nome"><strong>Nome:</strong></label>
+                <input type="text" id="nome" name="nome" required autocomplete="username">
+
+                <label class="centrap" for="email"><strong>Email:</strong></label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+
+                <label class="centrap" for="mensagem"><strong>Mensagem:</strong></label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Alguma observação especial?"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
-       
+
     </main>
-<footer>
-        <h3>Desenvolvido por <a  href="https://github.com/devGabriel7"> Gabriel Lopes</a></h3>
-    </footer>
+
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>

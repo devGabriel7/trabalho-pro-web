@@ -22,10 +22,7 @@ header{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    /*background-color: rgb(5, 78, 138);
-     background-image: linear-gradient(to left, #ececec, #0072e4);*/
-    background-image: linear-gradient(to left, rgb(190, 189, 189), black);
-    
+    background-image: linear-gradient(to left, rgb(190, 189, 189), black); 
 }
 
 ul{
@@ -84,6 +81,8 @@ div#img{
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+ /* configs da imagem */
 img{
     width: 30%;
     float: left;
@@ -158,7 +157,7 @@ section#contato{
 }
 
 
-/* configs do site de formação */
+/* configs dos outros links/sites */
 .lformacao{
   color: white;
   font-size: 1.6em;
@@ -183,11 +182,30 @@ color: blue;
     color: rgba(0, 162, 255, 0.986);
     text-decoration: underline;
 }
-footer{
-    background-color: white;
-    color: black;
-    text-align: center;
-    width: 71%;
-    margin: auto;
-    border-radius: 0px 10px ;
+
+.contato-item {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
+
+input, textarea {
+  width: 90%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
