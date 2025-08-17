@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
   /* configs globais do site */
 *{
     margin: 0px;
@@ -99,8 +98,8 @@ section#formacao{
     text-align: center;
     height: 13%;
     
-    
 }
+
 
 /* configs das secções com links*/
 #formacao a{
