@@ -135,15 +135,7 @@ section#portifolio a:hover{
     text-decoration: underline;
 }
 
-section#contato{
-    text-align: auto;
-    padding: 20px;
-    text-align: center;
-    height: 13%;
-    background-color: #F3F4F6;
-      
-    
-}
+
 #contato a{
     color: rgba(0, 0, 255, 0.849);
     text-decoration: none;
