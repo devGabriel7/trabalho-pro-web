@@ -134,7 +134,9 @@ section#portifolio a:hover{
     text-decoration: underline;
 }
 
-
+ #contato{
+    text-align: center;
+ }
 #contato a{
     color: rgba(0, 0, 255, 0.849);
     text-decoration: none;
